@@ -1,16 +1,4 @@
-{
-               "name": "secktor-md",
-               "version": "0.0.7",
-               "description": "Multi device",
-               "main": "lib/client.js",
-               "type": "commonjs",
-               "license": "GPL-3.0",
-   "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
-                },
-               "author": "SamPandey001",
-              "dependencies": {
+"dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
@@ -58,20 +46,4 @@
                        "pastebin-js": "latest",
                        "fb-info-video":"^1.0.2",
                        "wa-sticker-formatter": "^4.3.2"
-                      },
-                  "directories": {
-                       "lib": "lib",
-                       "assets": "lib/assets"
-                    },
-                  "devDependencies": {
-                       "pino": "^7.0.5"
-                    },
-                 "repository": {
-                 "type": "git",
-                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
-                  },
-                 "bugs": {
-                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
-                  },
-                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
-                  }
+              }
